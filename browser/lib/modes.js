@@ -641,6 +641,13 @@ const modes = [
     match: /\.rdoc$/i
   },
   {
+    name: 'rst',
+    label: 'reStructuredText',
+    alias: ['reST'],
+    mode: 'rst',
+    match: /\.rst$/i
+  },
+  {
     name: 'ruby',
     label: 'Ruby',
     alias: ['rb'],
